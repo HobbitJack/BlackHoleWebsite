@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 a {
     text-decoration: none;
 }
@@ -57,12 +61,12 @@ footer {
     color: whitesmoke;
 }
 
-.currentpage {
+#headerlinks a:hover {
     color: grey;
 }
 
-#headerlinks a:hover {
-    color: grey;
+a.currentpage {
+    color: grey!important;
 }
 
 #pageheader {
@@ -120,6 +124,25 @@ footer {
 #bodytext a, #bodytext a:visited {
     color: cadetblue;
 }
+
+#imagecredits a {
+    color: whitesmoke;
+}
+
+#imagecredits a:visited {
+    color: grey;
+}
+
+#imagecredits a::after {
+    content: attr(href);
+}
+
+#creditstatement {
+    line-height: 1;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
 
 #footerspacing {
     display: block;
