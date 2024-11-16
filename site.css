@@ -1,0 +1,147 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Montserrat;
+    color: whitesmoke;
+    background-color: #333;
+}
+
+footer {
+    background-color: #111;
+}
+
+#siteheader {
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 20;
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: #111;
+    padding-top: 10px;
+}
+
+#sitetitle {
+    padding-top: 25px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-weight: 500;
+    display: inline-block;
+    float: left;
+}
+
+#sitetitle a:visited {
+    color: whitesmoke;
+}
+
+#sitetitle a:hover {
+    color: grey;
+}
+
+#headerlinks {
+    font-size: 12px;
+    padding-top: 50px;
+    display: inline-block;
+    float: right;
+}
+
+#headerlinks a, #headerlinks a:visited {
+    padding-right: 30px;
+    color: whitesmoke;
+}
+
+.currentpage {
+    color: grey;
+}
+
+#headerlinks a:hover {
+    color: grey;
+}
+
+#pageheader {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 120px;
+    background-color: #777;
+    color: #111;
+}
+
+#headertext {
+    margin: auto;
+    padding-botton: 40px;
+    text-align: left;
+    padding-left: 80px;
+    font-size: 30px;
+}
+
+#homeheadertext {
+    margin: auto;
+    padding-botton: 40px;
+    text-align: center;
+    padding-left: 80px;
+    font-size: 30px;
+}
+
+#headerspacing {
+    display: block;
+    position: relative;
+    margin-top: 220px;
+}
+
+#bodytext {
+    line-height: 2;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#bodytext img{
+    float: right;
+    width: 600px;
+    height: 400px;
+    margin-left: 30px;
+}
+
+#bodytext a, #bodytext a:visited {
+    color: cadetblue;
+}
+
+#footerspacing {
+    display: block;
+}
+
+#sitefooter {
+    position: absolute;
+    right: 0;
+    left: 0;
+    background-color: #111;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#footerlinks {
+    padding-top: 15px;
+    display: inline-block;
+    float: right;
+}
+
+#siteowner {
+    display: inline-block;
+    float: left;
+}
+
+#footerlinks a {
+    padding-right: 30px;
+    color: whitesmoke;
+}
+
+#footerlinks a:visited {
+    color: grey;
+}
+
+
